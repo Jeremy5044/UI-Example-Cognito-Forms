@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button
+        class="button-left"
+        tooltip="This text can be up to 40 characters!!!!"
+      >
+        This text can be up to 40 characters!!!!
+      </button>
+      <button
+        class="button-left"
+        tooltip="This text can be up to 40 characters!!!!"
+      >
+        This text can be up to 40 characters!!!!
+      </button>
+
+      <button class="button-right" id="saveButton">Save</button>
+      <button class="button-right" id="cancelButton">Cancel</button>
+    </div>
+    <!-- Mobile Ui Nav -->
+    <div class="mobile-nav">
+      <header>
+        <span><a href="https://jeremymtab.com/" target="_blank">Save</a></span>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+      </header>
+      <div class="menu">
+        <ul>
+          <a href="#"><li>This text can be up to 40 characters!!!</li></a>
+          <a href="#"><li>This text can be up to 40 characters!!!</li></a>
+          <a href="#"><li>Cancel</li></a>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="tooltip.js"></script>
+<script src="menu.js"></script>
